@@ -33,7 +33,7 @@ a taste of Test Driven Development (TDD).
 Downloading Python Koans
 ------------------------
 
-Python Koans is available through git on Github:
+Python Koans is available through git on GitHub:
 
     http://github.com/gregmalcolm/python_koans
 
@@ -48,34 +48,20 @@ Installing Python Koans
 -----------------------
 
 Aside from downloading or checking out the latest version of Python Koans, you
-need to install the Python interpreter.
+need to install the Python interpreter. This repo only supports Python 3.5+.
 
-At this time of writing, there are two versions of the Python Koans:
-
-* one for use with Python 2.7 (earlier versions are no longer supported)
-* one for Python 3.1+
-
-You should be able to work with newer Python versions, but older ones will
-likely give you problems.
-
-You can download Python from here:
+You can download Python 3 from here:
 
     http://www.python.org/download
 
 After installing Python make sure the folder containing the python executable
 is in the system path. In other words, you need to be able to run
-Python from a command console. With Python 2 it will be called `python`
-or `python.exe` depending on the operating system. For Python 3 it will either
+Python from a command console. For Python 3 it will either
 be `python3` or for windows it will be `python.exe`.
 
 If you have problems, this may help:
 
     http://www.python.org/about/gettingstarted
-
-Windows users may also want to update the line in the batch file `run.bat` to
-set the python path::
-
-    SET PYTHON_PATH=C:\Python27
 
 
 Getting Started
@@ -89,10 +75,6 @@ Or if you prefer to read:
 
 From a \*nix terminal or windows command prompt go to the python
 koans\\python_VERSION folder and run::
-
-    python contemplate_koans.py
-
-or::
 
     python3 contemplate_koans.py
 
@@ -132,7 +114,7 @@ in the koans directory, it will rerun the tests.
 
 To set this up, you need to install sniffer::
 
-    $ pip install sniffer
+    $ pip3 install sniffer
 
 You should also run one of these libraries depending on your system. This will
 automatically trigger sniffer when a file changes, otherwise sniffer will have
@@ -140,20 +122,20 @@ to poll to see if the files have changed.
 
 On Linux::
 
-    $ pip install pyinotify
+    $ pip3 install pyinotify
 
 On Windows::
 
-    $ pip install pywin32
-    
+    $ pip3 install pywin32
+
 (If that failed, try::
-    
-    $ pip install pypiwin32
+
+    $ pip3 install pypiwin32
 )
 
-On Mac OS X::
+On macOS::
 
-    $ pip install MacFSEvents
+    $ pip3 install MacFSEvents
 
 Once it is set up, you just run::
 
@@ -182,21 +164,15 @@ The Python Koans is a made up of about 2/3 Ruby Koans ported material and 1/3
 Python specific tests. The content ported from Ruby Koans includes all the
 assignment projects.
 
-Content for Python 3 is a little different to the Python 2 flavor due to big
-changes between the two different versions of the language.  For example, in
-the Python 2 variant the differences between old and new style classes are
-covered. This loses relevance in in the Python 3 version, but there are some
-extra tests covering new functionality.
-
 
 Finding More Koan Projects
 --------------------------
 
 There are number of other great Koan projects out there for various languages
-and frameworks. Most of them can be found in github. Also there is a little
+and frameworks. Most of them can be found in GitHub. Also there is a little
 koans activity on bitbucket.
 
-* Github koan projects:
+* GitHub koan projects:
     https://github.com/search?q=koans&ref=cmdform
 
 * Bitbucket koan projects:
