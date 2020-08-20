@@ -34,11 +34,7 @@ Downloading Python Koans
 
 Python Koans is available through git on GitHub:
 
-    http://github.com/gregmalcolm/python_koans
-
-It is also mirrored on bitbucket for Mercurial users:
-
-    http://bitbucket.org/gregmalcolm/python_koans
+    https://github.com/sl4m/python-koans
 
 Either site will allow you to download the source as a zip/gz/bz2.
 
@@ -51,7 +47,7 @@ need to install the Python interpreter. This repo only supports Python 3.5+.
 
 You can download Python 3 from here:
 
-    http://www.python.org/download
+    https://www.python.org/download
 
 After installing Python make sure the folder containing the python executable
 is in the system path. In other words, you need to be able to run
@@ -60,7 +56,7 @@ be `python3` or for windows it will be `python.exe`.
 
 If you have problems, this may help:
 
-    http://www.python.org/about/gettingstarted
+    https://www.python.org/about/gettingstarted
 
 
 Getting Started
@@ -68,7 +64,7 @@ Getting Started
 
 Jake Hebbert has created a couple of screencasts available here:
 
-http://www.youtube.com/watch?v=e2WXgXEjbHY&list=PL5Up_u-XkWgNcunP_UrTJG_3EXgbK2BQJ&index=1
+https://www.youtube.com/watch?v=e2WXgXEjbHY&list=PL5Up_u-XkWgNcunP_UrTJG_3EXgbK2BQJ&index=1
 
 Or if you prefer to read:
 
@@ -188,4 +184,4 @@ Also thanks to everyone who has contributed to Python Koans! I got a great
 headstart by taking over a code base initiated by the combined Mikes of
 FPIP. So here's a little plug for their very cool Python podcast:
 
-  http://frompythonimportpodcast.com/
+  https://frompythonimportpodcast.com/
